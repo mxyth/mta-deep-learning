@@ -1,0 +1,19 @@
+<meta>
+    <info type="script" name="Deep Learning Driving" version="1.0.0" />
+
+    <map src="map/track.map" dimension="0" />
+
+    <script src="map/mapEditorScriptingExtension_s.lua" type="server" />
+    <script src="map/mapEditorScriptingExtension_c.lua" type="client" validate="false" />
+
+    <script src="brain/math_utils.lua" type="client" />
+    <script src="brain/neural_net.lua" type="client" />
+    <script src="brain/sensors.lua" type="client" />
+    <script src="brain/controller.lua" type="client" />
+    <script src="brain/genetic.lua" type="client" />
+    <script src="brain/trainer_client.lua" type="client" />
+
+    <script src="core/bots_client.lua" type="client" />
+    <script src="core/spectator_client.lua" type="client" />
+    <script src="core/hud_client.lua" type="client" />
+</meta>
